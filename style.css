@@ -1,0 +1,10 @@
+#img-header{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#getLocation{
+    background-color: blue;
+    color: white;
+}
