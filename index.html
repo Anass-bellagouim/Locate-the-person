@@ -10,6 +10,10 @@
 
 
 <body dir="rtl">
+
+<div id="div1">
+  
+
     
 <header>
 
@@ -20,6 +24,7 @@
           </a>
 
           <button id="getLocation">Locate me</button>
+          <button id="name-location">Belagouim</button>
         </div>
       </nav>
 
@@ -30,9 +35,29 @@
 <main id="content">
     <section id="alert"></section>
     <section id="map">
-        `<iframe height="300" width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=${position.coords.longitude},${position.coords.latitude}&;layer=mapnik"> </iframe>`
+        `<iframe height="400" width="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=0,0&;layer=mapnik"> </iframe>`
     </section>
 </main>
+
+<footer id="footer1">
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/map.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Belagouim - Live Map</h5>
+          <p class="card-text"> A site to display your location directly on the map in a safe and easy-to-use manner
+          </p>
+          <p class="card-text"><small class="text-muted">https://anass-bellagouim.github.io/Locate-the-person/</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
 
 
     <script src="script.js"></script>

@@ -1,10 +1,36 @@
-#img-header{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
+#img-header {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
-#getLocation{
-    background-color: blue;
-    color: white;
+#getLocation {
+  background-color: #4849c3;
+  color: white;
+  border-radius: 16px;
+  border: 2px solid #4849c3;
+}
+
+#alert {
+  text-align: center;
+  font-weight: bold;
+}
+#div1 {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#name-location {
+  background-color: rgb(255, 255, 255);
+  color: #4849c3;
+  border-radius: 16px;
+  border: 2px solid #4849c3;
+}
+
+#footer1 {
+  text-align: center;
+}
+
+.card-body {
+  margin-top: 50px;
 }
